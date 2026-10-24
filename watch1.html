@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>watch/Otaku Zone</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            width: 100%;
+            min-height: 100vh;
+            background-color: #0b141c;
+            color: white;
+            overflow-x: hidden;
+        }
+
+        .watch-container {
+            width: 100%;
+            max-width: 1000px;
+            margin: 0 auto;
+            padding: 20px 10px;
+        }
+
+       .video {
+        width: 100%;
+        background-color: #0b141c;
+        border: 2px solid white;
+        border-radius: 10px;
+        overflow: hidden;
+       } 
+
+       video {
+        display: block;
+        width: 100%;
+        height: auto;
+        aspect-ratio: 16 / 9;
+        background: black;
+       }
+
+       .episode-info {
+        margin-top: 20px;
+        padding: 18px;
+        background-color: #162530;
+        border-radius: 10px;
+        .episode-info h1 {
+            color: #00d9c0;
+            font-size: 25px;
+            margin-bottom: 10px;
+        }
+
+        .episode-info p {
+         color: #bdcbd5;
+         line-height: 1.7;
+        }
+    }
+
+    footer {
+        margin-top: 30px;
+        padding: 20px 10px;
+        text-align: center;
+        background: #162530;
+        color: #bdcbd5;
+    }
+
+    footer span {
+        color: #00d9c0;
+    }
+
+    @media (max-width:480px) {
+        .watch-container {
+            padding: 15px 10px;
+
+        }
+
+        .episode-info h1 {
+            font-size: 21px;
+        }
+    }
+    </style>
+</head>
+<body>
+    <main class="watch-container">
+        <div class="video">
+          <video controls>
+            <source src="" type="video/mp4">
+          </video>  
+        </div>
+        <div class="episode-info">
+            <h1>attack on titan</h1>
+     <p>watch your favorite anime on Otaku Zone</p>
+        </div>
+    </main>
+
+    <footer>
+        2026 <span>OtakuZone</span> all rights reserved
+    </footer>
+</body>
+</html>
